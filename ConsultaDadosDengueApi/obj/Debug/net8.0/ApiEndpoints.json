@@ -1,0 +1,33 @@
+[
+  {
+    "ContainingType": "ConsultaDadosDengueApi.Controllers.DadosDengueController",
+    "Method": "GetDadosDengueSemana",
+    "RelativePath": "api/consulta_dados_dengue/semana",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "semana",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ano",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ConsultaDadosDengueApi.Model.DadosDengueModel, ConsultaDadosDengueApi, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
